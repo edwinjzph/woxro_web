@@ -1,0 +1,139 @@
+.build_items{
+
+    height: 390px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+    border-radius: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-width: 350px;
+    max-width: 350px;
+margin-top: 10px;
+    display: flex;
+    padding-bottom: 20px;
+    align-items: center;
+}
+	.MuiButton-text{
+        color: red;
+    }
+.main_container{
+
+margin: auto;
+overflow-x: none;
+width: 90%;
+ 
+}
+.button_main{
+    display: flex;
+    flex-direction:row;
+ margin-top: 10px;
+align-items: end;
+justify-content: end;
+    width: 100%;
+}
+.build_items button{
+    border: none;
+width: max-content;
+margin-right: 10px;
+align-items: flex-end;
+padding: 8px;
+transition:  500ms;
+    background-color: white;
+border-radius: 5px;
+cursor: pointer;
+color: black;
+font-size: 17px;
+    
+}
+.build_items button:hover{
+    color: white;
+    background-color: black;
+}
+.main_container h3{
+    text-align: start;
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.scroll{
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap:  10px !important;
+  width: 100%;
+height: max-content;
+padding: 20px;
+padding-top: 0;
+margin: auto;
+overflow-y: none;
+  overflow-x: scroll;
+}
+.scroll::-webkit-scrollbar {
+    display: none;
+  }
+.build_items img{
+    height: 220px;
+    width: 100% !important;
+  border: none;
+
+   
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+   
+}
+
+
+.menu_items_sub{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.build_items:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+
+.build_items p{
+    color: black;
+    font-weight: 600;
+    width: 95%;
+    margin-top: 0;
+    margin: auto;
+    text-align: start;
+}
+.light_discription{
+    color: gray !important;
+    background-color: white !important;
+    padding: 0 !important;
+    width: 95%;
+    text-align: start;
+    margin: auto;
+  }
+
+  @media screen and (max-width: 600px) {
+    .build_items{
+        min-width: 280px;
+        max-width: 280px;
+        min-height: 300px;
+    }
+    .main_container{
+       
+        margin-left: 0px;
+    }
+    .scroll{
+        padding-left: 10px;
+    }
+    .build_items{
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    
+    }
+    .main_container h3{
+        padding-left: 10px;
+    }
+  }
